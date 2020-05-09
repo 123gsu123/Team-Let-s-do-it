@@ -88,7 +88,7 @@ public class EnemyB : Entity
 
     private void Die()
     {
-        aliveGO.SetActive(false);
+        transform.gameObject.SetActive(false);
     }
 
 }

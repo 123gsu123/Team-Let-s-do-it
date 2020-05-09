@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69c413d442ebe23459181b632deb4007, type: 3}
+  m_Script: {fileID: 11500000, guid: 89543bc7a47a74a419f942d5a19727ef, type: 3}
   m_Name: EA_DashAttackData
   m_EditorClassIdentifier: 
   attackRadius: 0.5
@@ -22,4 +22,4 @@ MonoBehaviour:
   dashforce_B: 9
   whatIsPlayer:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 4096

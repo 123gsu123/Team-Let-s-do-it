@@ -39,7 +39,7 @@ public class EnemyA : Entity
        
         chargeState = new EA_ChargeState(this, stateMachine, "charge", chargeStateData, this);
 
-        dashAttackState = new EA_DashAttackState(this, stateMachine, "meleeAttack", dashAttackPosition, dashAttackStateData, this);
+        dashAttackState = new EA_DashAttackState(this, stateMachine, "dashAttack", dashAttackPosition, dashAttackStateData, this);
 
         stateMachine.Initialize(moveState); //시작을 이동으로 넣기.
     }

@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7818908ea61f23b41994ca5ae9214ad3, type: 3}
+  m_Script: {fileID: 11500000, guid: f4129a0504ab0af44b438846f4d787b5, type: 3}
   m_Name: EB_ChargeData
   m_EditorClassIdentifier: 
-  chargeSpeed: 3
-  AttakArange: 2
-  sightOutTime: 4
+  chargeSpeed: 6
+  AttakArange: 0
+  sightOutTime: 3
   sightUp: 1.5
   sightDown: 1

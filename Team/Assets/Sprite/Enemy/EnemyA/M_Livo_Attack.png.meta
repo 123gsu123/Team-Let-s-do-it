@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: 812f575576bfcbb4fa1df39c77d398a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2884761395641874368
+    second: M_Livo_Attack_0
+  - first:
+      213: -8072756360007415071
+    second: M_Livo_Attack_1
+  - first:
+      213: 1524960892501284895
+    second: M_Livo_Attack_2
+  - first:
+      213: 7780350146794527396
+    second: M_Livo_Attack_3
+  - first:
+      213: 2367981666588865684
+    second: M_Livo_Attack_4
+  - first:
+      213: 7939050583447284093
+    second: M_Livo_Attack_5
+  - first:
+      213: 7004321986731011094
+    second: M_Livo_Attack_6
+  - first:
+      213: 5214568025498050836
+    second: M_Livo_Attack_7
+  - first:
+      213: 8378067005087752736
+    second: M_Livo_Attack_8
+  - first:
+      213: 563137546416688516
+    second: M_Livo_Attack_9
+  - first:
+      213: 5727264021136474111
+    second: M_Livo_Attack_10
+  - first:
+      213: -8063154696693908209
+    second: M_Livo_Attack_11
+  - first:
+      213: 313855145871839508
+    second: M_Livo_Attack_12
+  - first:
+      213: 2377181789108991768
+    second: M_Livo_Attack_13
+  - first:
+      213: -4260658259820087419
+    second: M_Livo_Attack_14
+  - first:
+      213: 3305953091866162669
+    second: M_Livo_Attack_15
+  - first:
+      213: 1609508921581307608
+    second: M_Livo_Attack_16
+  - first:
+      213: -3278409257448019476
+    second: M_Livo_Attack_17
+  - first:
+      213: -7338784240248925607
+    second: M_Livo_Attack_18
+  - first:
+      213: 6558400593268019246
+    second: M_Livo_Attack_19
+  - first:
+      213: 94050250523923730
+    second: M_Livo_Attack_20
+  - first:
+      213: 7007811018620379839
+    second: M_Livo_Attack_21
+  - first:
+      213: 4784260530890228072
+    second: M_Livo_Attack_22
+  - first:
+      213: 4742829882957746991
+    second: M_Livo_Attack_23
+  - first:
+      213: -6749957740643811396
+    second: M_Livo_Attack_24
+  - first:
+      213: -390750734497892790
+    second: M_Livo_Attack_25
+  - first:
+      213: 221939840540588774
+    second: M_Livo_Attack_26
+  - first:
+      213: -3495183277600951292
+    second: M_Livo_Attack_27
+  - first:
+      213: -7369429353166182224
+    second: M_Livo_Attack_28
+  - first:
+      213: -8998035803521674166
+    second: M_Livo_Attack_29
+  - first:
+      213: 185233505988398431
+    second: M_Livo_Attack_30
+  - first:
+      213: -1031864135218013760
+    second: M_Livo_Attack_31
+  - first:
+      213: -7275650949314282918
+    second: M_Livo_Attack_32
+  - first:
+      213: 6919470318988746153
+    second: M_Livo_Attack_33
+  - first:
+      213: 425878252139365525
+    second: M_Livo_Attack_34
+  - first:
+      213: 3343795633843344039
+    second: M_Livo_Attack_35
+  - first:
+      213: 3762153464706863798
+    second: M_Livo_Attack_36
+  - first:
+      213: -6604342926317545127
+    second: M_Livo_Attack_37
+  - first:
+      213: 6493242986725710420
+    second: M_Livo_Attack_38
+  - first:
+      213: -420222827469790453
+    second: M_Livo_Attack_39
+  - first:
+      213: -7265929869328996474
+    second: M_Livo_Attack_40
+  - first:
+      213: 6342248958391147864
+    second: M_Livo_Attack_41
+  - first:
+      213: -6147075075763856862
+    second: M_Livo_Attack_42
+  - first:
+      213: 3695802856436977885
+    second: M_Livo_Attack_43
+  - first:
+      213: -4010875595655520942
+    second: M_Livo_Attack_44
+  - first:
+      213: -7784930296843559607
+    second: M_Livo_Attack_45
+  - first:
+      213: 4371649073251229037
+    second: M_Livo_Attack_46
+  - first:
+      213: 1592709869813209586
+    second: M_Livo_Attack_47
+  - first:
+      213: -2336211506911253027
+    second: M_Livo_Attack_48
+  - first:
+      213: -8152649671957935713
+    second: M_Livo_Attack_49
+  - first:
+      213: -8244251054697239704
+    second: M_Livo_Attack_50
+  - first:
+      213: 6177726992390086187
+    second: M_Livo_Attack_51
+  - first:
+      213: -1495607474097035109
+    second: M_Livo_Attack_52
+  - first:
+      213: 7240428611018544134
+    second: M_Livo_Attack_53
+  - first:
+      213: -8819313091171927607
+    second: M_Livo_Attack_54
+  - first:
+      213: 8705127045659410364
+    second: M_Livo_Attack_55
+  - first:
+      213: 6377475718667633873
+    second: M_Livo_Attack_56
+  - first:
+      213: 961202860880687785
+    second: M_Livo_Attack_57
+  - first:
+      213: -6594818358854379561
+    second: M_Livo_Attack_58
+  - first:
+      213: 4424399610620520773
+    second: M_Livo_Attack_59
+  - first:
+      213: -9193734300802215567
+    second: M_Livo_Attack_60
+  - first:
+      213: 6163591378439912538
+    second: M_Livo_Attack_61
+  - first:
+      213: -5403001951059088799
+    second: M_Livo_Attack_62
+  - first:
+      213: -2393172671252850038
+    second: M_Livo_Attack_63
+  - first:
+      213: -556017664145766441
+    second: M_Livo_Attack_64
+  - first:
+      213: 433411553102983400
+    second: M_Livo_Attack_65
+  - first:
+      213: -1210415977407594129
+    second: M_Livo_Attack_66
+  - first:
+      213: -6602312586722324104
+    second: M_Livo_Attack_67
+  - first:
+      213: 5737117553179175669
+    second: M_Livo_Attack_68
+  - first:
+      213: 4805560255404277835
+    second: M_Livo_Attack_69
+  - first:
+      213: 6901080290339868203
+    second: M_Livo_Attack_70
+  - first:
+      213: 1579257182537979693
+    second: M_Livo_Attack_71
+  - first:
+      213: -3206732747360830476
+    second: M_Livo_Attack_72
+  - first:
+      213: -3731118505667756279
+    second: M_Livo_Attack_73
+  - first:
+      213: -3937951418385199136
+    second: M_Livo_Attack_74
+  - first:
+      213: -6547576171373076293
+    second: M_Livo_Attack_75
+  - first:
+      213: -7409244114792316673
+    second: M_Livo_Attack_76
+  - first:
+      213: -7071445329924845808
+    second: M_Livo_Attack_77
+  - first:
+      213: -8679362882162191186
+    second: M_Livo_Attack_78
+  - first:
+      213: 5506795958206347262
+    second: M_Livo_Attack_79
+  - first:
+      213: 3994173606272163443
+    second: M_Livo_Attack_80
+  - first:
+      213: -7457670984449005442
+    second: M_Livo_Attack_81
+  - first:
+      213: -3179745035831419096
+    second: M_Livo_Attack_82
+  - first:
+      213: 8045252148410441619
+    second: M_Livo_Attack_83
+  - first:
+      213: -1038871448427627652
+    second: M_Livo_Attack_84
+  - first:
+      213: -7951214423003157414
+    second: M_Livo_Attack_85
+  - first:
+      213: 6733612784440019927
+    second: M_Livo_Attack_86
+  - first:
+      213: 5793049338247680728
+    second: M_Livo_Attack_87
+  - first:
+      213: 9117711622459089279
+    second: M_Livo_Attack_88
+  - first:
+      213: 2695949087047296433
+    second: M_Livo_Attack_89
+  - first:
+      213: -3194514274235102914
+    second: M_Livo_Attack_90
+  - first:
+      213: 6739634774648209664
+    second: M_Livo_Attack_91
+  - first:
+      213: 5638271754214555236
+    second: M_Livo_Attack_92
+  - first:
+      213: 2796687336524077617
+    second: M_Livo_Attack_93
+  - first:
+      213: 949670616692239470
+    second: M_Livo_Attack_94
+  - first:
+      213: -3965611858248723089
+    second: M_Livo_Attack_95
+  - first:
+      213: 2031877958137178327
+    second: M_Livo_Attack_96
+  - first:
+      213: 724465610284622116
+    second: M_Livo_Attack_97
+  - first:
+      213: -4021338815563465533
+    second: M_Livo_Attack_98
+  - first:
+      213: -1135417385857528869
+    second: M_Livo_Attack_99
+  - first:
+      213: -6276864604697898347
+    second: M_Livo_Attack_100
+  - first:
+      213: -4525639835642044218
+    second: M_Livo_Attack_101
+  - first:
+      213: -8278887338936557639
+    second: M_Livo_Attack_102
+  - first:
+      213: 4069286040048936461
+    second: M_Livo_Attack_103
+  - first:
+      213: -425494378303408096
+    second: M_Livo_Attack_104
+  - first:
+      213: 2018220472241510564
+    second: M_Livo_Attack_105
+  - first:
+      213: -7618828308504103205
+    second: M_Livo_Attack_106
+  - first:
+      213: 879632296940824092
+    second: M_Livo_Attack_107
+  - first:
+      213: 8285198574878222652
+    second: M_Livo_Attack_108
+  - first:
+      213: -9042983161345623427
+    second: M_Livo_Attack_109
+  - first:
+      213: 6473103207580439531
+    second: M_Livo_Attack_110
+  - first:
+      213: -3732211800692931655
+    second: M_Livo_Attack_111
+  - first:
+      213: 1439119187208546834
+    second: M_Livo_Attack_0
+  - first:
+      213: -679032901248103247
+    second: M_Livo_Attack_1
+  - first:
+      213: 3973739333383594397
+    second: M_Livo_Attack_2
+  - first:
+      213: 2724303260111861726
+    second: M_Livo_Attack_3
+  - first:
+      213: -2303136959332042915
+    second: M_Livo_Attack_4
+  - first:
+      213: -2796799813506364956
+    second: M_Livo_Attack_5
+  - first:
+      213: 1400800410993475044
+    second: M_Livo_Attack_6
+  - first:
+      213: 3936971514504756855
+    second: M_Livo_Attack_7
+  - first:
+      213: -1229304211343527898
+    second: M_Livo_Attack_8
+  - first:
+      213: 2313900577699417823
+    second: M_Livo_Attack_9
+  - first:
+      213: 1909078530605536905
+    second: M_Livo_Attack_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 103
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: M_Livo_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21aa307a647c8f310800000000000000
+      internalID: 1439119187208546834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bccd4a8c279396f0800000000000000
+      internalID: -679032901248103247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91a354bede852730800000000000000
+      internalID: 3973739333383594397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7f76f816baec520800000000000000
+      internalID: 2724303260111861726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57b0f5532d9900e0800000000000000
+      internalID: -2303136959332042915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e903104365cf29d0800000000000000
+      internalID: -2796799813506364956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edbc725d84a07310800000000000000
+      internalID: 1400800410993475044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e33e4cbbee2a630800000000000000
+      internalID: 3936971514504756855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6203af93552a0fee0800000000000000
+      internalID: -1229304211343527898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde485bd050ac1020800000000000000
+      internalID: 2313900577699417823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98651111fc86e7a10800000000000000
+      internalID: 1909078530605536905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Livo_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 0
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d7986168be91090800000000000000
+      internalID: -8063154696693908209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
