@@ -62,9 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Bandits - Pixel Art\Demo\Bandit.cs" />
-    <Compile Include="Assets\Bandits - Pixel Art\Demo\CharacterSelector_Bandit.cs" />
-    <Compile Include="Assets\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
+    <Compile Include="Assets\Animations\Bandits - Pixel Art\Demo\Bandit.cs" />
+    <Compile Include="Assets\Animations\Bandits - Pixel Art\Demo\CharacterSelector_Bandit.cs" />
+    <Compile Include="Assets\Animations\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
     <Compile Include="Assets\Scripts\BossPatten\BossBullet.cs" />
     <Compile Include="Assets\Scripts\BossPatten\BossBullet2.cs" />
     <Compile Include="Assets\Scripts\BossPatten\BossPatten1.cs" />
