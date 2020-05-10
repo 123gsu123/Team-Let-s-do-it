@@ -19,7 +19,7 @@ TagManager:
   - Damageble
   - Enemy
   - Player
-  - 
+  - PostProcessing
   - 
   - 
   - 
@@ -51,8 +51,11 @@ TagManager:
   - name: FrontDecoration
     uniqueID: 3784783251
     locked: 0
-  - name: Player_Enemy
+  - name: Player
     uniqueID: 722759521
+    locked: 0
+  - name: Enemy
+    uniqueID: 2789669749
     locked: 0
   - name: Ground
     uniqueID: 1275484515

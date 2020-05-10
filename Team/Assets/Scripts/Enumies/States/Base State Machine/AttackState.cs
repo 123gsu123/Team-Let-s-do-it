@@ -6,12 +6,12 @@ public class AttackState : State
 {
     protected Transform attackPosition;
 
-    
+
     protected bool isAttacking;  //
     protected bool isPlayerInMinAgroRange;//플레이어 최소거리.
 
 
-    public AttackState(Entity entity, FiniteStateMachine stateMachine, string animBoolName,Transform attackPosition)
+    public AttackState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, Transform attackPosition)
         : base(entity, stateMachine, animBoolName)
     {
 
@@ -56,7 +56,7 @@ public class AttackState : State
 
     public virtual void FinishAttack()
     {
-        
+
     }
 
 }

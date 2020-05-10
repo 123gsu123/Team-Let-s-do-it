@@ -37,7 +37,7 @@ public class PlayerDetectedState : State
 
         entity.SetVelocity(0f); //이동 멈춤.
 
-       
+
     }
 
     public override void Exit()
@@ -51,7 +51,7 @@ public class PlayerDetectedState : State
 
 
         //지켜보는 시간이 지나가면.
-        if(Time.time >= startTime + stateData.longRangeActionTime)
+        if (Time.time >= startTime + stateData.longRangeActionTime)
         {
             performLongRangeAction = true;
         }

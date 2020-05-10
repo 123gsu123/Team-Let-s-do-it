@@ -21,7 +21,7 @@ public class DashAttackState : AttackState
     private bool attackted;
 
     private float dashForce;
-    
+
 
     public DashAttackState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, Transform attackPosition, D_DashAttack stateData)
         : base(entity, stateMachine, animBoolName, attackPosition)
@@ -60,7 +60,6 @@ public class DashAttackState : AttackState
     {
         base.FinishAttack();
 
-        isAttacking = false;
     }
 
     public override void LogicUpdate()
@@ -75,7 +74,7 @@ public class DashAttackState : AttackState
                 {
                     dashAttakFaze = 2;
                     dashTimeLeft = Time.time;
-                   
+                    entity.anim.SetBool("dashAttack_2", true);
                     //Debug.Log("1");
                 }
                 break;
@@ -85,6 +84,7 @@ public class DashAttackState : AttackState
                     dashAttakFaze = 3;
                     dashafterTimeLeft = Time.time;
                     entity.SetVelocity(0);
+                    entity.anim.SetBool("dashAttack_2", false);
                     // Debug.Log("3");
                 }
                 else
@@ -116,10 +116,10 @@ public class DashAttackState : AttackState
                 entity.SetVelocity(0);
                 break;
         }
-       
+
 
     }
-    
+
 
 
 
@@ -135,7 +135,7 @@ public class DashAttackState : AttackState
     {
         base.TriggerAttack();
 
-        if ( !attackted && dashAttakFaze == 2 )
+        if (!attackted && dashAttakFaze == 2)
         {
             attackted = true;
             //충돌된 오브젝트

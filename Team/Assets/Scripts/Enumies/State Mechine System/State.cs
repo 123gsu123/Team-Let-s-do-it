@@ -12,7 +12,7 @@ public class State : MonoBehaviour
     protected bool inRange;
 
     protected string animBoolName;
-    
+
     //생성자
     public State(Entity entity, FiniteStateMachine stateMachine, string animBoolName)
     {
@@ -50,5 +50,5 @@ public class State : MonoBehaviour
     {
 
     }
-    
+
 }

@@ -6,7 +6,7 @@ public class EA_PlayerDetectedState : PlayerDetectedState
 {
     private EnemyA enemy;
 
-    public EA_PlayerDetectedState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_PlayerDetected stateData, EnemyA enemy) 
+    public EA_PlayerDetectedState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_PlayerDetected stateData, EnemyA enemy)
         : base(entity, stateMachine, animBoolName, stateData)
     {
         this.enemy = enemy;
@@ -27,17 +27,17 @@ public class EA_PlayerDetectedState : PlayerDetectedState
     {
         base.LogicUpdate();
 
-        if(performCloseRangeAction)
+        if (performCloseRangeAction)
         {
             stateMachine.ChangeState(enemy.dashAttackState);
         }
 
-       //지켜보는 시간이 끝나면.
-        else if(performLongRangeAction)
+        //지켜보는 시간이 끝나면.
+        else if (performLongRangeAction)
         {
             stateMachine.ChangeState(enemy.chargeState); //추적으로 바꾸기
         }
-        else if(!isPlayerInMaxAgroRange)
+        else if (!isPlayerInMaxAgroRange)
         {
             stateMachine.ChangeState(enemy.moveState);
         }

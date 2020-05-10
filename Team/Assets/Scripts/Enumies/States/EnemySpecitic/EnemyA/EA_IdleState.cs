@@ -10,7 +10,7 @@ public class EA_IdleState : IdleState
     private int idlemode;
     private bool FinePlayer;
 
-    public EA_IdleState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_IdleState stateData, EnemyA enemy) 
+    public EA_IdleState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_IdleState stateData, EnemyA enemy)
         : base(entity, stateMachine, animBoolName, stateData)
     {
         this.enemy = enemy;
@@ -40,7 +40,7 @@ public class EA_IdleState : IdleState
         //발견하면.
         if (FinePlayer)
         {
-           
+
             stateMachine.ChangeState(enemy.chargeState);//추적모드로 바꿈
         }
 
@@ -60,21 +60,21 @@ public class EA_IdleState : IdleState
 
     private void CheckIdleMode()
     {
-            isIdleTimeOver = true;
+        isIdleTimeOver = true;
 
 
-            if (idlemode == 0)//0은 다시 뽑기.
-            { 
-                isIdleTimeOver = false;
-                SetRandomIdleTime();//다시 얼마나 기다릴건지 뽑는다.
-                randomIdleMode();//모드 랜덤뽑기. 1이면 다시 뽑고, 2면 넘긴다.
-            }
-            else if (idlemode == 1)//1가 나오면 움직인다.
-            {
-                if (RandomDirection == 1)//랜덤 방향이 1나오면 플립한다.
-                    entity.Flip();
-                stateMachine.ChangeState(enemy.moveState);
-            }
+        if (idlemode == 0)//0은 다시 뽑기.
+        {
+            isIdleTimeOver = false;
+            SetRandomIdleTime();//다시 얼마나 기다릴건지 뽑는다.
+            randomIdleMode();//모드 랜덤뽑기. 1이면 다시 뽑고, 2면 넘긴다.
+        }
+        else if (idlemode == 1)//1가 나오면 움직인다.
+        {
+            if (RandomDirection == 1)//랜덤 방향이 1나오면 플립한다.
+                entity.Flip();
+            stateMachine.ChangeState(enemy.moveState);
+        }
     }
 
 

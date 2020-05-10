@@ -15,7 +15,7 @@ public class Entity : MonoBehaviour
 
     public Animator anim { get; private set; }
 
-    //public GameObject aliveGO { get; private set; }
+    public GameObject aliveGO { get; private set; }
 
     public AnimationToStatemachine atsm { get; private set; }
 
@@ -44,7 +44,7 @@ public class Entity : MonoBehaviour
     private bool playerOnLeft;
     private bool isknockback;
     ///////
-  
+
 
 
     [SerializeField]
@@ -71,7 +71,7 @@ public class Entity : MonoBehaviour
         //rb = aliveGO.GetComponent<Rigidbody2D>();
         //anim = aliveGO.GetComponent<Animator>();
 
-        //aliveGO = transform.Find("Alive").gameObject;// 이름 무조건 Alive.
+        aliveGO = transform.Find("Alive").gameObject;// 이름 무조건 Alive.
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
@@ -88,7 +88,7 @@ public class Entity : MonoBehaviour
 
     public virtual void Update()
     {
-        
+
         stateMachine.currentState.LogicUpdate();
 
 
@@ -97,24 +97,24 @@ public class Entity : MonoBehaviour
 
     public virtual void FixedUpdate()
     {
-        
+
         stateMachine.currentState.PhysicUpdate();
-        
+
     }
 
 
     public virtual void SetVelocity(float velocity)
     {//이동 셋.
-        
+
         velocityWorkspace.Set(facingDirection * velocity, rb.velocity.y);
         rb.velocity = velocityWorkspace;
-        
+
     }
 
     public virtual void SetVelocityVector2(Vector2 velocity)
     {//이동 셋.
 
-       rb.velocity = velocity;
+        rb.velocity = velocity;
 
     }
 
@@ -125,7 +125,7 @@ public class Entity : MonoBehaviour
     public virtual bool CheckWall()
     {//벽체크
         //래이캐스트
-        return Physics2D.Raycast(wallCheck.position, transform.right, entityData.wallCheckDistance, entityData.whatIsGround);
+        return Physics2D.Raycast(wallCheck.position, aliveGO.transform.right, entityData.wallCheckDistance, entityData.whatIsGround);
     }
 
     public virtual bool CheckLedge()
@@ -141,17 +141,17 @@ public class Entity : MonoBehaviour
 
     public virtual bool CheckPlayerInMinAgroRange()
     {
-        return Physics2D.Raycast(playerCheck.position, transform.right, entityData.minAgroDistance, entityData.whatIsPlayer );
+        return Physics2D.Raycast(playerCheck.position, aliveGO.transform.right, entityData.minAgroDistance, entityData.whatIsPlayer);
     }
 
     public virtual bool CheckPlayerInMaxAgroRange()
     {
-        return Physics2D.Raycast(playerCheck.position, transform.right, entityData.maxAgroDistance, entityData.whatIsPlayer);
+        return Physics2D.Raycast(playerCheck.position, aliveGO.transform.right, entityData.maxAgroDistance, entityData.whatIsPlayer);
     }
 
     public virtual bool CheckPlayerInCloseRangeAction()
     {
-        return Physics2D.Raycast(playerCheck.position, transform.right, entityData.closeRangeActionDistance, entityData.whatIsPlayer);
+        return Physics2D.Raycast(playerCheck.position, aliveGO.transform.right, entityData.closeRangeActionDistance, entityData.whatIsPlayer);
     }
 
 
@@ -161,11 +161,11 @@ public class Entity : MonoBehaviour
         Vector2 temp;
         temp.x = playerCheck.position.x;
         temp.y = playerCheck.position.y;
-        if (Physics2D.Raycast(temp, transform.right, 7f, entityData.whatIsPlayer))
+        if (Physics2D.Raycast(temp, aliveGO.transform.right, 7f, entityData.whatIsPlayer))
         {
             return true;
         }
-        else if (Physics2D.Raycast(temp, transform.right * -1, 3f, entityData.whatIsPlayer))
+        else if (Physics2D.Raycast(temp, aliveGO.transform.right * -1, 3f, entityData.whatIsPlayer))
         {
             return true;
         }
@@ -178,11 +178,11 @@ public class Entity : MonoBehaviour
 
         float playerX = player.transform.position.x;
 
-        if (playerX > transform.position.x)
+        if (playerX > aliveGO.transform.position.x)
         {
             return 1;
         }
-        else if (playerX <= transform.position.x)
+        else if (playerX <= aliveGO.transform.position.x)
         {
             return -1;
         }
@@ -195,7 +195,7 @@ public class Entity : MonoBehaviour
 
     public void updatePlayerDistance()
     {
-       playerDistance = Vector2.Distance(new Vector2(transform.position.x, transform.position.y), new Vector2(player.transform.position.x, player.transform.position.y));
+        playerDistance = Vector2.Distance(new Vector2(transform.position.x, transform.position.y), new Vector2(player.transform.position.x, player.transform.position.y));
 
     }
 
@@ -220,12 +220,12 @@ public class Entity : MonoBehaviour
     public virtual void OnDrawGizmos()
     {//기즈모 그리기.
         Gizmos.DrawLine(wallCheck.position, wallCheck.position + (Vector3)(Vector2.right * facingDirection * entityData.wallCheckDistance));//벽
-        //Gizmos.DrawLine(attackCheck.position, attackCheck.position + (Vector3)(Vector2.right * facingDirection * entityData.AtteckCheckDistance));//공격
-       // Gizmos.DraLine(wallCheck.position, wallCheck.position + new Vector3(wallCheck.position.x + facingDirection, wallCheck.position.y, wallCheck.position.z);
-       Gizmos.DrawLine(ledgeCheck.position, ledgeCheck.position + (Vector3)(Vector2.down * entityData.ledgeCheckDistance));//땅
+                                                                                                                                            //Gizmos.DrawLine(attackCheck.position, attackCheck.position + (Vector3)(Vector2.right * facingDirection * entityData.AtteckCheckDistance));//공격
+                                                                                                                                            // Gizmos.DraLine(wallCheck.position, wallCheck.position + new Vector3(wallCheck.position.x + facingDirection, wallCheck.position.y, wallCheck.position.z);
+        Gizmos.DrawLine(ledgeCheck.position, ledgeCheck.position + (Vector3)(Vector2.down * entityData.ledgeCheckDistance));//땅
 
-        Debug.DrawRay(new Vector2(playerCheck.position.x, playerCheck.position.y),transform.right * 7f, Color.red);
-        Debug.DrawRay(new Vector2(playerCheck.position.x, playerCheck.position.y),transform.right * -1 * 3f, Color.blue);
+        Debug.DrawRay(new Vector2(playerCheck.position.x, playerCheck.position.y), aliveGO.transform.right * 7f, Color.red);
+        Debug.DrawRay(new Vector2(playerCheck.position.x, playerCheck.position.y), aliveGO.transform.right * -1 * 3f, Color.blue);
     }
 
 

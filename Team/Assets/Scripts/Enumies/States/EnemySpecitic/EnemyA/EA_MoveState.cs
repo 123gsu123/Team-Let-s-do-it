@@ -23,7 +23,7 @@ public class EA_MoveState : MoveState
 
 
 
-    public EA_MoveState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_MoveState stateData, EnemyA enemy) 
+    public EA_MoveState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_MoveState stateData, EnemyA enemy)
         : base(entity, stateMachine, animBoolName, stateData)
     {
         this.enemy = enemy;
@@ -93,7 +93,7 @@ public class EA_MoveState : MoveState
         {
             isMoveTimeOver = true;
 
-            if(Movemode == 0 )//0 이 나오면다시 난수 돌려서 돌아다니기
+            if (Movemode == 0)//0 이 나오면다시 난수 돌려서 돌아다니기
             {
                 isMoveTimeOver = false;
 
@@ -102,7 +102,7 @@ public class EA_MoveState : MoveState
                 SetRandomMoveTime();//다시 얼마나 기다릴건지 뽑는다.
 
                 randomMoveMode();//모드 뽑는다 . 1이면 다시 뽑고, 2면 기다린다.
-               
+
             }
             else if (Movemode == 1)//1이 나오면 아이들로 돌아가서 아이들 패턴으로
             {

@@ -18,8 +18,8 @@ MonoBehaviour:
   dashtime: 0.5
   dashAfterTime: 1
   lerp: 0.3
-  dashforce_A: 30
-  dashforce_B: 9
+  dashforce_A: 20
+  dashforce_B: 10
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 4096

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyA : Entity
-{   
+{
 
-     public EA_IdleState idleState { get; private set; }
+    public EA_IdleState idleState { get; private set; }
 
-     public EA_MoveState moveState { get; private set; }
-   
+    public EA_MoveState moveState { get; private set; }
+
     public EA_ChargeState chargeState { get; private set; }
 
     public EA_DashAttackState dashAttackState { get; private set; }
@@ -18,7 +18,7 @@ public class EnemyA : Entity
     private D_IdleState idleStateData;
     [SerializeField]
     private D_MoveState moveStateData;
-    
+
 
     [SerializeField]
     private D_ChargeState chargeStateData;
@@ -36,7 +36,7 @@ public class EnemyA : Entity
         //새로 이동관련 인자 받기.
         moveState = new EA_MoveState(this, stateMachine, "move", moveStateData, this);
         idleState = new EA_IdleState(this, stateMachine, "idle", idleStateData, this);
-       
+
         chargeState = new EA_ChargeState(this, stateMachine, "charge", chargeStateData, this);
 
         dashAttackState = new EA_DashAttackState(this, stateMachine, "dashAttack", dashAttackPosition, dashAttackStateData, this);
@@ -45,7 +45,7 @@ public class EnemyA : Entity
     }
 
 
-     public override void Update()
+    public override void Update()
     {
         base.Update();
         CheckKnockback();
@@ -57,7 +57,7 @@ public class EnemyA : Entity
 
     private void Damage(AttackDetails attackDetails)
     {
-        
+
         int direction;
 
         //체력깍고

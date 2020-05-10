@@ -45,7 +45,7 @@ public class IdleState : State
         base.Exit();
 
         //나갈때 플립.
-        if(flipAfterIdle)
+        if (flipAfterIdle)
         {
             entity.Flip();
         }
@@ -55,7 +55,7 @@ public class IdleState : State
     {
         base.LogicUpdate();
 
-        if(Time.time > startTime + idleTime)
+        if (Time.time > startTime + idleTime)
         {
             isIdleTimeOver = true;
         }

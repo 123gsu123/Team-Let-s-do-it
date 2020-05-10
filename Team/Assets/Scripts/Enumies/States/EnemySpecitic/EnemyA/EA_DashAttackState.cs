@@ -7,7 +7,7 @@ public class EA_DashAttackState : DashAttackState
     private EnemyA enemy;
 
 
-    public EA_DashAttackState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, Transform attackPosition, D_DashAttack stateData, EnemyA enemy) 
+    public EA_DashAttackState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, Transform attackPosition, D_DashAttack stateData, EnemyA enemy)
         : base(entity, stateMachine, animBoolName, attackPosition, stateData)
     {
         this.enemy = enemy;
@@ -36,7 +36,6 @@ public class EA_DashAttackState : DashAttackState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-
 
         //공격이 끝나면
         if (!isAttacking)

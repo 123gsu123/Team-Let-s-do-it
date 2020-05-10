@@ -10,7 +10,7 @@ public class ChargeState : State
 
     protected bool isDetectingLedge;
     protected bool isDetectingWall;
-    
+
     protected int playerDirectionRight;
 
 
@@ -79,9 +79,18 @@ public class ChargeState : State
     {
         base.LogicUpdate();
 
-        Chase(); //추적.
+        checkChase(); //추적.
 
-        //공격 사거리 안에 들어오면 공격.
+        //플레이어 방향이 바뀌면 추적하기.
+        if (playerDirectionRight != entity.facingDirection && isSightPlayer && isFlipCooldown)
+        {//오른쪽에 있으면1,왼쪽에 있으면 -1  //그리고//  오른쪽을 바라보고있으면 1, 왼쪽을 바라보고 있으면 -1
+
+            isFlipCooldown = false;
+            FlipCooldownStartTime = Time.time;
+
+            entity.Flip();//방향바꾸기.
+            entity.SetVelocity(stateData.chargeSpeed);//이동
+        }
     }
 
 
@@ -94,16 +103,12 @@ public class ChargeState : State
 
 
 
-    public void Chase() //추적.
+
+
+
+    protected void checkChase() //추적.
     {
-        checkChase();
-    }
 
-
-
-    protected  void checkChase() //추적.
-    {
-       
         //탐색으로 바꿈
 
         // -1< 만약 플레이어의 y < +1.5정도에 있다면 현재 시간 계속 갱신
@@ -130,21 +135,9 @@ public class ChargeState : State
             isSightPlayer = false;
         }
 
-        //플레이어 방향이 바뀌면 추적하기.
-        if (  playerDirectionRight != entity.facingDirection && isSightPlayer && isFlipCooldown)
-        {//오른쪽에 있으면1,왼쪽에 있으면 -1  //그리고//  오른쪽을 바라보고있으면 1, 왼쪽을 바라보고 있으면 -1
-
-            isFlipCooldown = false;
-            FlipCooldownStartTime = Time.time;
-
-            entity.Flip();//방향바꾸기.
-            entity.SetVelocity(stateData.chargeSpeed);//이동
-        }
-
-
     }
 
 
- 
-    
+
+
 }

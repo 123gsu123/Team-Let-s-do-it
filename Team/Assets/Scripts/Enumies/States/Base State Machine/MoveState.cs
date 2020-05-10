@@ -53,6 +53,6 @@ public class MoveState : State
     {
         base.PhysicUpdate();
 
-      
+
     }
 }
